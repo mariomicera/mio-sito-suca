@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Il Mio Sito Personale</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ciao! Sono [Tuo Nome]</h1>
+    <p>Questo è il mio sito web. Posso modificarlo quando voglio!</p>
+    
+    <img src="/naive.jpg" alt="La mia foto" class="profile-pic">
+    <button id="openPopup">Clicca qui</button>
+
+    <br><br>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mariomicera90@gmail.com&su=Ciao%20Mario!&body=Ciao,%20vorrei%20parlarti%20del%20tuo%20sito!" target="_blank">
+      <button class="btn-contact">Contattami via email</button>
+    </a>
+    <div id="myPopup" class="popup">
+      <div class="popup-content">
+        <span class="close">×</span>
+        <h2>Benvenuto!</h2>
+        <p>Hai cliccato il pulsante!</p>
+        <button id="closePopup">Chiudi</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
